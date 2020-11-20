@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Rubik";
+    src:url("../../fonts/Rubik-Regular.ttf") format("truetype");
+   }
+   .headerDiv{
+       display: flex;
+       width: 100%;
+       padding-top: 2%;
+
+       align-items: center;
+
+       cursor: default;
+   }
+   .logoDiv{
+       width: 3%;
+       margin-right: 5%;
+       margin-left: 2%;
+   }
+   .logoDiv img{
+       width: 100%;
+   }
+   .navDiv{
+       width: 80%;
+   }
+   .navDiv ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+    cursor: pointer;
+   }
+   .navLi{
+       font-family: 'Rubik', 'sans-serif';
+
+       text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+   }
+   .navLi:hover{
+    font-weight: bold;
+
+    border-bottom: 2px solid #000;
+
+    transition: 0.3s;
+
+}
+
+   .active{
+       font-weight: bold;
+
+       border-bottom: 2px solid #000;
+   }
+   .searchShop{
+       width: 15%;
+       
+       align-items: center;
+       display: flex;
+   }
+   .searchDiv {
+    width: 13%;
+
+    margin-right: 5%;
+   }
+   .searchDiv img{
+       width: 100%;
+   }
+   .shopDiv{
+    width: 15%;
+    margin-bottom: 2%;
+   }
+   .shopDiv img{
+       width: 100%;
+   }
